@@ -1,0 +1,38 @@
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contact__container{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 2px groove;
+  padding: 50px 85px;
+
+}
+
+.contact__container >p{
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+}
+
+.contact__container >p >span{
+  margin-left: 10px;
+  letter-spacing: 1.30px;
+  color: burlywood;
+  cursor: pointer;
+}
+
+.contact__icon{
+  margin-left: 100px;
+}
+
+.contact__icon > a > button > .MuiSvgIcon-root{
+  margin-left: 20px;
+ font-size: 30px;
+}
+

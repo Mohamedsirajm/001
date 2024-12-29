@@ -1,0 +1,8 @@
+.topcontiner{
+  background: url("../topcontent/imagess/IMG_20241110_215528_370.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 20000px black(0,0,0,0.5);
+}

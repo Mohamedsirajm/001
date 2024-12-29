@@ -1,0 +1,45 @@
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(222, 222, 222);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  top: 0;
+  position:sticky;
+  z-index: 2000;
+}
+
+ .header__left {
+flex: 0.4;
+}
+
+.header__left > h1{
+  text-align: center;
+  letter-spacing: 1px;padding: 20px 0px;
+}
+
+.header__left > h1 >span{
+  color: brown;
+}
+
+.header__right{
+  display: flex;
+  flex: 0.6;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.header__right > a > h4 {
+color: rgb(220, 172, 137);
+cursor: pointer;
+transition: trasform 200ms ease-in-out;
+}
+
+.header__right > a > h4:hover{
+  transform: scale(1.09);
+  background-color: brown;
+  padding: 10px 9px;
+  color: rgb(232, 232, 232);
+  border-radius: 3px;
+}

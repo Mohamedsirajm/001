@@ -1,0 +1,32 @@
+.procontent > img{
+  width: 240px;
+  height: 185px;
+  border-radius: 5px;
+}
+
+.procontent{
+margin: 10px 12px;
+width: 240px;
+height: 205px;
+transition:tranform 200s ease-in;
+
+}
+
+.procontent:hover{
+  background-color: rgba(241, 192, 123, 0.888);
+transform: scale(1.05);
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+padding: 13px ;
+border-radius: 5px;
+}
+
+.procontent >div >h1  {
+  color: black !important;
+}
+
+.procontent >div >h3 {
+  color: black !important;
+}
